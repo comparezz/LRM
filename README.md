@@ -9,5 +9,5 @@ Reward Machines (RMs), originally proposed for specifying problems in Reinforcem
         year      = {2019}
     }
 
-## Code
-We are working towards releasing a clean (and usable) version of our code within the next few weeks. If you fill this form ([link](https://docs.google.com/forms/d/e/1FAIpQLSfKHJd9yyfx-2-p_tdM5fhSVfd5WK2vcsnIjMruV21MARI4jA/viewform?usp=sf_link)), we will let you know as soon as our code is released.ÿThank you for your patience :)
+## Code 
+We are working towards releasing a clean (and usable) version of our code within the next few weeks. If you fill this form ([link](https://docs.google.com/forms/d/e/1FAIpQLSfKHJd9yyfx-2-p_tdM5fhSVfd5WK2vcsnIjMruV21MARI4jA/viewform?usp=sf_link)), we will let you know as soon as our code is released.ï¿½Thank you for your patience :)
