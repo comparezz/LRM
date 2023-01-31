@@ -1,0 +1,201 @@
+U = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+u0 = 0
+terminal_obs: {'2aBc', '2Abc', '0abC', '0aBc', '2abC', '0Abc'}
+----------------
+delta_u[(0, '3cn')]=1
+delta_u[(0, '3b.')]=5
+delta_u[(0, '3a.')]=6
+delta_u[(0, '3c.')]=7
+delta_u[(4, '0abc')]=9
+delta_u[(0, '3an')]=3
+delta_u[(0, '3bs')]=2
+delta_u[(0, '3as')]=4
+delta_u[(0, '3bn')]=8
+delta_u[(0, '3cs')]=9
+delta_u[(4, '2abc')]=2
+----------------
+state_p[(2, '3b.')]={'3b.', '1'}
+state_p[(7, '3c.')]={'1', '3c.'}
+state_p[(5, '3cn')]={'1', '3cn'}
+state_p[(6, '3cn')]={'1', '3cn'}
+state_p[(2, '3cn')]={'1', '3cn'}
+state_p[(8, '3cn')]={'1', '3cn'}
+state_p[(9, '3bs')]={'1', '3bs'}
+state_p[(9, '2abc')]={'2abc', '2abC', '2aBc', '2Abc', '1'}
+state_p[(9, '3b.')]={'3b.', '1'}
+state_p[(1, '3as')]={'1', '3as'}
+state_p[(3, '3as')]={'1', '3as'}
+state_p[(6, '3bn')]={'1', '3bn'}
+state_p[(5, '3c.')]={'1', '3c.'}
+state_p[(6, '0abc')]={'1', '0abc', '0aBc', '0Abc', '0abC'}
+state_p[(4, '3cn')]={'1', '3cn'}
+state_p[(5, '3bs')]={'1', '3bs'}
+state_p[(6, '3cs')]={'1', '3cs'}
+state_p[(9, '3an')]={'1', '3an'}
+state_p[(8, '3bs')]={'1', '3bs'}
+state_p[(3, '0abc')]={'1', '0abc', '0aBc', '0Abc', '0abC'}
+state_p[(5, '3b.')]={'3b.', '1'}
+state_p[(3, '1')]={'1', '0abc', '2abc', '3an'}
+state_p[(0, '3as')]={'1', '3as'}
+state_p[(3, '3an')]={'1', '3an'}
+state_p[(5, '3bn')]={'1', '3bn'}
+state_p[(1, '3a.')]={'1', '3a.'}
+state_p[(0, '3c.')]={'1', '3c.'}
+state_p[(4, '3bs')]={'1', '3bs'}
+state_p[(1, '3an')]={'1', '3an'}
+state_p[(4, '0abc')]={'0abc'}
+state_p[(9, '3bn')]={'1', '3bn'}
+state_p[(5, '1')]={'1', '0abc', '2abc', '3b.'}
+state_p[(6, '3an')]={'1', '3an'}
+state_p[(6, '3c.')]={'1', '3c.'}
+state_p[(5, '3an')]={'1', '3an'}
+state_p[(5, '3cs')]={'1', '3cs'}
+state_p[(8, '3cs')]={'1', '3cs'}
+state_p[(0, '2abc')]={'2abc', '2abC', '2Abc', '2aBc', '1'}
+state_p[(0, '3a.')]={'1', '3a.'}
+state_p[(5, '2abc')]={'2abc', '2abC', '2aBc', '2Abc', '1'}
+state_p[(1, '3c.')]={'1', '3c.'}
+state_p[(2, '3as')]={'1', '3as'}
+state_p[(6, '1')]={'1', '0abc', '2abc', '3a.'}
+state_p[(3, '3a.')]={'1', '3a.'}
+state_p[(4, '3c.')]={'1', '3c.'}
+state_p[(5, '0abc')]={'1', '0abc', '0aBc', '0Abc', '0abC'}
+state_p[(0, '1')]={'1', '2abc', '3bs', '3a.', '3c.', '3cn', '3an', '3bn', '3b.', '0abc', '3as', '3cs'}
+state_p[(2, '3cs')]={'1', '3cs'}
+state_p[(3, '3bs')]={'1', '3bs'}
+state_p[(4, '3cs')]={'1', '3cs'}
+state_p[(2, '1')]={'1', '0abc', '3bs', '2abc'}
+state_p[(1, '3b.')]={'3b.', '1'}
+state_p[(0, '0abc')]={'1', '0abc', '0aBc', '0Abc', '0abC'}
+state_p[(9, '3cs')]={'1', '3cs'}
+state_p[(7, '3as')]={'1', '3as'}
+state_p[(9, '3a.')]={'1', '3a.'}
+state_p[(7, '2abc')]={'2abc', '2abC', '2aBc', '2Abc', '1'}
+state_p[(4, '2abc')]={'2abc'}
+state_p[(9, '1')]={'1', '0abc', '3cs', '2abc'}
+state_p[(8, '2abc')]={'2abc', '2abC', '2Abc', '2aBc', '1'}
+state_p[(7, '1')]={'1', '0abc', '3c.', '2abc'}
+state_p[(5, '3as')]={'1', '3as'}
+state_p[(7, '3bn')]={'1', '3bn'}
+state_p[(0, '3bn')]={'1', '3bn'}
+state_p[(8, '3c.')]={'1', '3c.'}
+state_p[(4, '3b.')]={'3b.', '1'}
+state_p[(2, '2abc')]={'2abc', '2abC', '2aBc', '2Abc', '1'}
+state_p[(1, '3cs')]={'1', '3cs'}
+state_p[(2, '3bs')]={'1', '3bs'}
+state_p[(3, '3cs')]={'1', '3cs'}
+state_p[(8, '0abc')]={'1', '0abc', '0aBc', '0Abc', '0abC'}
+state_p[(7, '0abc')]={'1', '0abc', '0aBc', '0Abc', '0abC'}
+state_p[(2, '3a.')]={'1', '3a.'}
+state_p[(8, '3a.')]={'1', '3a.'}
+state_p[(6, '3as')]={'1', '3as'}
+state_p[(6, '3bs')]={'1', '3bs'}
+state_p[(5, '3a.')]={'1', '3a.'}
+state_p[(7, '3a.')]={'1', '3a.'}
+state_p[(7, '3cs')]={'1', '3cs'}
+state_p[(0, '3cs')]={'1', '3cs'}
+state_p[(7, '3an')]={'1', '3an'}
+state_p[(0, '3an')]={'1', '3an'}
+state_p[(0, '3cn')]={'1', '3cn'}
+state_p[(9, '3c.')]={'1', '3c.'}
+state_p[(2, '0abc')]={'1', '0abc', '0aBc', '0Abc', '0abC'}
+state_p[(8, '3as')]={'1', '3as'}
+state_p[(9, '3as')]={'1', '3as'}
+state_p[(6, '3b.')]={'3b.', '1'}
+state_p[(4, '1')]={'1', '0abc', '3as', '2abc'}
+state_p[(7, '3bs')]={'1', '3bs'}
+state_p[(1, '3bs')]={'1', '3bs'}
+state_p[(8, '3an')]={'1', '3an'}
+state_p[(4, '3a.')]={'1', '3a.'}
+state_p[(3, '3c.')]={'1', '3c.'}
+state_p[(3, '3cn')]={'1', '3cn'}
+state_p[(4, '3bn')]={'1', '3bn'}
+state_p[(2, '3bn')]={'1', '3bn'}
+state_p[(0, '3b.')]={'3b.', '1'}
+state_p[(7, '3cn')]={'1', '3cn'}
+state_p[(0, '3bs')]={'1', '3bs'}
+state_p[(1, '3cn')]={'1', '3cn'}
+state_p[(1, '2abc')]={'2abc', '2abC', '2aBc', '2Abc', '1'}
+state_p[(6, '3a.')]={'1', '3a.'}
+state_p[(8, '3b.')]={'3b.', '1'}
+state_p[(8, '3bn')]={'1', '3bn'}
+state_p[(4, '3as')]={'1', '3as'}
+state_p[(3, '3bn')]={'1', '3bn'}
+state_p[(1, '3bn')]={'1', '3bn'}
+state_p[(8, '1')]={'1', '0abc', '2abc', '3bn'}
+state_p[(6, '2abc')]={'2abc', '2abC', '2Abc', '2aBc', '1'}
+state_p[(2, '3c.')]={'1', '3c.'}
+state_p[(4, '3an')]={'1', '3an'}
+state_p[(3, '2abc')]={'2abc', '2abC', '2Abc', '2aBc', '1'}
+state_p[(2, '3an')]={'1', '3an'}
+state_p[(9, '3cn')]={'1', '3cn'}
+state_p[(9, '0abc')]={'1', '0abc', '0aBc', '0Abc', '0abC'}
+state_p[(1, '0abc')]={'1', '0abc', '0aBc', '0Abc', '0abC'}
+state_p[(3, '3b.')]={'3b.', '1'}
+state_p[(7, '3b.')]={'3b.', '1'}
+state_p[(1, '1')]={'1', '0abc', '3cn', '2abc'}
+----------------
+state_r[0]
+	2aBc -> -0.559140
+	2Abc -> -0.550000
+	0aBc -> -0.464789
+	0abC -> -0.479452
+	2abC -> -0.530435
+	0Abc -> -0.487544
+state_r[1]
+	2aBc -> -1.000000
+	2Abc -> -1.000000
+	0Abc -> -1.000000
+	0aBc -> -1.000000
+	2abC -> -1.000000
+	0abC -> 1.000000
+state_r[2]
+	2aBc -> 0.195222
+	0Abc -> -1.000000
+	0aBc -> -1.000000
+	2abC -> -1.000000
+	0abC -> -1.000000
+	2Abc -> -0.543307
+state_r[3]
+	2abC -> -1.000000
+	2Abc -> -1.000000
+	0Abc -> 1.000000
+	0aBc -> -1.000000
+	2aBc -> -1.000000
+	0abC -> -1.000000
+state_r[4]
+state_r[5]
+	2aBc -> 1.000000
+	2Abc -> -1.000000
+	0Abc -> -1.000000
+	0aBc -> 1.000000
+	2abC -> -1.000000
+	0abC -> -1.000000
+state_r[6]
+	2abC -> -1.000000
+	2Abc -> 1.000000
+	0Abc -> 1.000000
+	0aBc -> -1.000000
+	2aBc -> -1.000000
+	0abC -> -1.000000
+state_r[7]
+	2aBc -> -1.000000
+	2Abc -> -1.000000
+	0Abc -> -1.000000
+	0aBc -> -1.000000
+	2abC -> 1.000000
+	0abC -> 1.000000
+state_r[8]
+	2abC -> -1.000000
+	2Abc -> -1.000000
+	0Abc -> -1.000000
+	0abC -> -1.000000
+	0aBc -> 1.000000
+	2aBc -> -1.000000
+state_r[9]
+	2aBc -> -1.000000
+	0Abc -> -1.000000
+	0aBc -> -1.000000
+	2abC -> 0.508805
+	0abC -> -1.000000
+	2Abc -> -0.764706
