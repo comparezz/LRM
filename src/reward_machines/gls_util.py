@@ -95,13 +95,13 @@ def evaluate_rm(delta, local_change, tabu_set, U_max, observations, N, traces):
 
 class Worker(multiprocessing.Process):
 
-    def __init__(self, c_id, jobs, delta, population, U_max, observations, N, traces):
+    def __init__(self, c_id, jobs, delta, population_set, U_max, observations, N, traces):
         super().__init__()
         self.c_id = c_id
         self.jobs = jobs
         self.traces = traces
         self.delta = delta
-        self.population  = population
+        self.population  = population_set
         self.U_max = U_max
         self.observations = observations
         self.N = N
@@ -129,7 +129,7 @@ class Worker(multiprocessing.Process):
     def get_results(self):
         return self.results
 
-def evaluate_neighborhood(n_workers, delta, pupulation, U_max, observations, N, initial_obs, traces):
+def evaluate_neighborhood_gls(n_workers, delta, population_set, U_max, observations, N, initial_obs, traces):
 
     # Creating the jobs
     jobs = []
@@ -147,7 +147,7 @@ def evaluate_neighborhood(n_workers, delta, pupulation, U_max, observations, N, 
     random.shuffle(jobs)
 
     current_id = multiprocessing.Value('i', 0)
-    workers = [Worker(current_id, jobs, delta, population, U_max, observations, N, traces) for i in range(n_workers)]
+    workers = [Worker(current_id, jobs, delta, population_set, U_max, observations, N, traces) for i in range(n_workers)]
 
     for w in workers:
         w.start()
